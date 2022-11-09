@@ -6,7 +6,7 @@
 // }
 // console.log(reverse);
 
-let n = 12345;
-let rev = parseInt(n.toString().split('').reverse().join(''))
-console.log(rev);
+// let n = 12345;
+// let rev = parseInt(n.toString().split('').reverse().join(''))
+// console.log(rev);
 
