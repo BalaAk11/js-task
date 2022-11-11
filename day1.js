@@ -20,22 +20,31 @@
 // console.log(days(date1,date2));
 
 // task 2
-function myFunction() {
-    var input, filter, ul,a, i, li, txtValue;
-    input = document.getElementById('myInput');
-    filter = input.value.toUpperCase();
-    ul = document.getElementById('myUl');
-    li = ul.getElementsByTagName('li');
-    for ( i=0; i<li.length; i++){
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          li[i].style.display = "";
-        } else {
-          li[i].style.display = "none";
-        }
-      }
+// function myFunction() {
+//     var input, filter, ul,a, i, li, txtValue;
+//     input = document.getElementById('myInput');
+//     filter = input.value.toUpperCase();
+//     ul = document.getElementById('myUl');
+//     li = ul.getElementsByTagName('li');
+//     for ( i=0; i<li.length; i++){
+//         a = li[i].getElementsByTagName("a")[0];
+//         txtValue = a.textContent || a.innerText;
+//         if (txtValue.toUpperCase().indexOf(filter) > -1) {
+//           li[i].style.display = "";
+//         } else {
+//           li[i].style.display = "none";
+//         }
+//       }
     
-    }
+//     }
 
+// function vowelsConsonants(s){
+//   const letters = s.toString().split('');
+//   console.log(letters);
+//   let vowels = letters.filter((letter) =>{
+//     return letter.includes('a','e','i','o','u');
+//   } );
+//   console.log(vowels);
+// }
+// vowelsConsonants('bala');
 
