@@ -21,15 +21,15 @@
 
 // task 2
 // function myFunction() {
-//     var input, filter, ul,a, i, li, txtValue;
+//     var input,  ul, i, li;
 //     input = document.getElementById('myInput');
-//     filter = input.value.toUpperCase();
-//     ul = document.getElementById('myUl');
-//     li = ul.getElementsByTagName('li');
+//     input = input.toLowerCase();
+//     // ul = document.getElementById('myUl');
+//     // li = ul.getElementsByTagName('li');
+    
 //     for ( i=0; i<li.length; i++){
-//         a = li[i].getElementsByTagName("a")[0];
-//         txtValue = a.textContent || a.innerText;
-//         if (txtValue.toUpperCase().indexOf(filter) > -1) {
+   
+//         if (!li[i].innerHTML.toLowerCase().includes(input)) {
 //           li[i].style.display = "";
 //         } else {
 //           li[i].style.display = "none";
