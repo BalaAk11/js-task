@@ -1,4 +1,4 @@
-#myInput {
+/* #myInput {
     width: 100%;
     font-size: 16px;
     padding: 12px 20px 12px 40px;
@@ -27,4 +27,22 @@ i{
 }
 #myUL li a:hover:not(.header){
     background-color: #eee;
+} */
+
+.pagination{
+    display: inline-block;
+}
+.pagination a{
+    color: black;
+    padding: 8px 16px;
+    float: left;
+    text-decoration: none;
+    transform-origin: background-color .3s;
+}
+.pagination a.active{
+    background-color: rgb(11, 230, 11);
+    color: white;
+}
+.pagination a:hover:not(.active){
+    background-color: azure;
 }

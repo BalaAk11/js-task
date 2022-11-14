@@ -49,17 +49,17 @@
 // vowelsConsonants('bala');
 
 // day 3
-function romanize(num){
-    let lookup = {M:1000, CM:900, D:500, CD:400, C:100,};
-    let roman = "";
-    let i;
-    for (i in lookup){
-        while (num >= lookup[i]){
-            roman += i;
-            num -= lookup[i];
-        }
-    }
-    return roman;
-}
-console.log(romanize(500));
+// function romanize(num){
+//     let lookup = {M:1000, CM:900, D:500, CD:400, C:100,};
+//     let roman = "";
+//     let i;
+//     for (i in lookup){
+//         while (num >= lookup[i]){
+//             roman += i;
+//             num -= lookup[i];
+//         }
+//     }
+//     return roman;
+// }
+// console.log(romanize(500));
 
