@@ -38,15 +38,17 @@
     
 //     }
 
-// function vowelsConsonants(s){
-//   const letters = s.toString().split('');
-//   console.log(letters);
-//   let vowels = letters.filter((letter) =>{
-//     return letter.includes('a','e','i','o','u');
-//   } );
-//   console.log(vowels);
-// }
-// vowelsConsonants('bala');
+function vowelsConsonants(s){
+  const letters = s.toString().split('');
+  console.log(letters);
+  let vowels = letters.filter((letter) =>{
+    return letter.includes('a','e','i','o','u');
+  } );
+  console.log(vowels);
+}
+
+vowelsConsonants('bala');
+console.log("vowelsConsonants");
 
 // day 3
 // function romanize(num){
