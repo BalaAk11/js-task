@@ -49,6 +49,7 @@ function vowelsConsonants(s){
 
 vowelsConsonants('bala');
 console.log("vowelsConsonants");
+console.log("badu");
 
 // day 3
 // function romanize(num){
